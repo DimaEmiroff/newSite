@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit Regular'), local('Larsseit-Regular'),
+        url('./fonts/Larsseit.woff2') format('woff2'),
+        url('./fonts/Larsseit.woff') format('woff'),
+        url('./fonts/Larsseit.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Larsseit', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+  }
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Larsseit', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+    align-items: center;
+}
+
+.head__nav a {
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #22356F;
+    left: 380px;
+    padding-left: 20px;
+    
+}
+
+.head__nav a:hover {
+    color: #0033ce;
+    border: 1pxx solid #0033ce;
+    
+}
+/* -====LINE=====- */
+.line {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    left: 511px;
+    top: 62px;
+
+    background: #F4F9E2;
+    box-shadow: inset 0px -1px 0px #22356F;
+}
+
+.head__contacts_btn {
+    margin-left: 760px;
+    width: 150px;
+    height: 50px;
+    margin-right: 31px;
+    background: #62D0DF;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+}
+.head__contacts_btn:hover {
+    background: #019cb1;
+    cursor: pointer;
+}
+
+.bg__head {
+    background-image: url(./image/Group\ 7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+    width: 100%;
+   
+}
+/* HELPING YOU THRIVE IN ALL AREAS OF LIFE */
+.title__head {
+    position: absolute;
+    width: 500px;
+    height: 167px;
+    left: 90px;
+    top: 305px;
+    font-size: 26px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #22356F;
+
+}
+/* Thrivetalk */
+.thrivet__head {
+    position: absolute;
+    left: 90px;
+    top: 241px;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+
+    color: #62D0DF;
+}
+
+
+
+/* Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more. */
+
+.our__head {
+    position: absolute;
+    width: 469px;
+    height: 161px;
+    left: 90px;
+    top: 491px;
+
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: #22356F;
+}
+
+/* Rectangle */
+.rectangle {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 90px;
+    top: 715px;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #F9B640;
+    border: none;
+
+}
+.rectangle:hover {
+    background: #d68801;
+    cursor: pointer;
+}
+
+/* -=====intro=====- */
+
+.section {
+    position: absolute;
+    width: 100%;
+    height: 607px;
+    left: 1px;
+    top: 842px;
+    background: #62D0DF;
+}
+
+/* Why Thrive? */
+
+.thrive__intro {
+    position: absolute;
+    width: 323px;
+    height: 51px;
+    left: 90px;
+    top: 183px;
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+.want__intro {
+
+    position: absolute;
+    width: 605px;
+    height: 235px;
+    left: 90px;
+    top: 289px;
+
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+}
+
+/* christopher-campbell-40367 */
+.img_christ__intro {
+        background-image: url(./image/christopher-campbell-40367.jpg);
+    position: absolute;
+    background-size: cover;
+    width: 525px;
+    height: 604px;
+    left: 1050px;
+    
+}
+/* -======thriveblock__intro======- */
+.thriveblock__intro {
+    position: absolute;
+    width: 592px;
+    height: 210px;
+    left: 424px;
+    top: 796px;
+    
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    
+    color: #22356F;
+}
+
+/* ABOUT US */
+.about_us__intro {
+    
+    position: absolute;
+    width: 93px;
+    height: 210px;
+    left: 106px;
+    top: 802px;
+
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+
+    color: #22356F;
+
+    opacity: 0.1;
+}
+
+
+
