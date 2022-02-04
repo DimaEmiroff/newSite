@@ -8,17 +8,19 @@
     font-style: normal;
   }
 
-  body {
+body {
     font-family: 'Larsseit', sans-serif;
     font-weight: 400;
     font-style: normal;
-    list-style: none;
+    
   }
 *,
 ::before,
 ::after {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -29,45 +31,47 @@ h1,h2,h3,h4,h5,h6 {
 
 .container {
     display: flex;
+       
     position: absolute;
     margin-top: 20px;
     margin-left: 90px;
     align-items: center;
 }
 
+
+.head__nav {
+    display: flex; 
+    margin-left: 350px;
+    
+}
 .head__nav a {
-    position: relative;
+    padding-left: 40px;
     font-size: 14px;
     line-height: 16px;
     text-decoration: none;
     color: #22356F;
-    left: 380px;
-    padding-left: 20px;
     
 }
 
 .head__nav a:hover {
     color: #0033ce;
-    border: 1pxx solid #0033ce;
-    
+    border-bottom: 1px solid #0033ce;
 }
 /* -====LINE=====- */
 .line {
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 5px;
-    left: 511px;
-    top: 62px;
-
-    background: #F4F9E2;
-    box-shadow: inset 0px -1px 0px #22356F;
+    left: 541px;
+    top: 60px;
+    border-bottom: 1px solid #22356F;
+    
 }
 
 .head__contacts_btn {
-    margin-left: 760px;
+    margin-left: 560px;
     width: 150px;
     height: 50px;
-    margin-right: 31px;
     background: #62D0DF;
     border-radius: 50px;
     text-align: center;
@@ -126,7 +130,7 @@ h1,h2,h3,h4,h5,h6 {
     left: 90px;
     top: 491px;
 
-    font-family: Larsseit;
+    font-family: 'Larsseit',sans-serif;
     font-size: 24px;
     line-height: 42px;
 
@@ -156,66 +160,62 @@ h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
 }
 
-/* -=====intro=====- */
+/* -=====section=====- */
 
-.section {
-    position: absolute;
+.intro__section {
+    display: inline-block;
+    flex-wrap: wrap;
     width: 100%;
-    height: 607px;
-    left: 1px;
-    top: 842px;
+    height: 605px;
+    margin-left: 0;
     background: #62D0DF;
+    
 }
 
 /* Why Thrive? */
 
 .thrive__intro {
-    position: absolute;
-    width: 323px;
+    float: left;
+    width: 223px;
     height: 51px;
-    left: 90px;
-    top: 183px;
-    font-size: 36px;
-    line-height: 27px;
+    margin-left: 90px;
+    margin-top: 103px;
+    font-size: 26px;
     letter-spacing: -0.006em;
 
     color: #FFFFFF;
 }
 .want__intro {
-
-    position: absolute;
-    width: 605px;
+    
+    width: 555px;
     height: 235px;
-    left: 90px;
-    top: 289px;
+    margin-left: 90px;
+    margin-top: 209px;
 
-    font-family: Larsseit;
+    font-family: 'Larsseit',sans-serif;
     font-size: 24px;
-    line-height: 35px;
-
+   
     color: #FFFFFF;
 
 }
 
 /* christopher-campbell-40367 */
 .img_christ__intro {
-        background-image: url(./image/christopher-campbell-40367.jpg);
-    position: absolute;
+    float: right;
+    position: relative;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
     width: 525px;
     height: 604px;
-    left: 1050px;
-    
+    bottom: 400px;
 }
 /* -======thriveblock__intro======- */
 .thriveblock__intro {
-    position: absolute;
     width: 592px;
-    height: 210px;
-    left: 424px;
-    top: 796px;
-    
-    font-family: Larsseit;
+    margin-left: 424px;
+    margin-top: 296px;
+    font-family: 'Larsseit',sans-serif;
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0.005em;
@@ -225,22 +225,255 @@ h1,h2,h3,h4,h5,h6 {
 
 /* ABOUT US */
 .about_us__intro {
-    
-    position: absolute;
+    position: relative;
     width: 93px;
     height: 210px;
     left: 106px;
-    top: 802px;
-
-    font-family: Larsseit;
+    bottom: 210px;
+    
+    font-family: 'Larsseit',sans-serif;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.06em;
-
     color: #22356F;
-
     opacity: 0.1;
 }
 
+/* -==========Group 3============- */
+
+.title__second {
+    margin-top: 120px;
+    margin-left: 200px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+
+.second__cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1px;
+    margin-top: 20px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+.second__Weight_Lifting {
+   
+   background: #FFE2DE;
+   width: 25%;
+  
+   height: 360px;
+}
+.Weight_Lifting__scnd {
+    margin-left: 50px;
+    width: 70%;
+    height: 72px;
+    background: #FFE2DE;
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}
+.second__cont p {
+    padding-top: 70px;
+    padding-left: 30px;
+    text-align: center;
+}
+.second__Weight_Lifting1 {
+    background:#C4E769;  
+    width: 25%;
+    height: 360px;      
+}
+.Weight_Lifting__scnd1 {
+    margin-left: 50px;
+    width: 70%;
+    height: 72px;
+    background: #C4E769; 
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}    
+.second__Weight_Lifting2 {
+    
+    background:#62D0DF; 
+    width: 25%;
+    height: 360px;      
+}
+.Weight_Lifting__scnd2 {
+    margin-left: 50px;
+    width: 70%;
+    height: 72px;
+    background: #62D0DF; 
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}  
+.second__Weight_Lifting3 {
+    background:#0052C1;
+    width: 25%;
+    height: 360px;      
+}
+.Weight_Lifting__scnd3 {
+    margin-left: 50px;
+    width: 70%;
+    height: 72px;
+    background: #0052C1; 
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}  
+.sub::before {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color:#E9B730; 
+}
+/* <!-- Group 3--> */
+
+.health__group {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap:  wrap;
+    margin-left: 0;
+    margin-top: 80px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+
+.physical__Health {
+    height: 480px;
+    width: 480px;
+    background: #22356F;
+
+}
+.physical__Health__scnd {
+    margin-left: 50px;
+    width: 70%;
+    height: 96px;
+    background: #22356F;
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}
+.health__group p{
+    padding-top: 70px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.mental__Health1 {
+    height: 480px;
+    width: 480px;
+    background: #0052C1;
+
+}
+.mental__Health__scnd1 {
+    margin-left: 50px;
+    width: 70%;
+    height: 96px;
+    background: #0052C1;
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}
+.nutrition__health {
+     width: 480px;
+}
+.capture__joanna {
+    margin:0;
+    
+    
+       
+}
+
+.nutrition__health p {
+    position: relative;
+    bottom: 380px;
+}
+.nutrition__scnd1 {
+    position: relative;
+    top: 12vh;
+    margin-left: 50px;
+    width: 70%;
+    height: 96px;
+    
+    box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.gymnastics__health {
+    height: 480px;
+    width: 480px;
+    background: #62D0DF;
+}
+.gymnastics__health__scnd1 {
+    margin-left: 50px;
+    width: 70%;
+    height: 96px;
+    background: #62D0DF;
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}
+.crossfit__health {
+    height: 480px;
+    width: 480px;
+    background: #DEE1FF;
+}
+.crossfit__health__scnd1 {
+    margin-left: 50px;
+    width: 70%;
+    height: 96px;
+    background: #DEE1FF;
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}
+.aerobics__health {
+    height: 480px;
+    width: 480px;
+    background: #8F00FF;
+}
+.aerobics__health__scnd1 {
+    margin-left: 50px;
+    width: 70%;
+    height: 96px;
+    background: #8F00FF;
+    box-shadow: inset 0px -1px 0px #FFFFFF; 
+}
+
+/* -=======Block5=========- */
+.contents__plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: left;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 40px; 
+}
+
+.content__train {
+    width: 480px;
+    height: 240px; 
+    
+}
+.train {
+    font-family: 'Larsseit', sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;    
+
+    color: #22356F;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+.train_par {
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+       
+}
 
 
