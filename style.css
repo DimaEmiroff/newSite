@@ -12,8 +12,8 @@ body {
     font-family: 'Larsseit', sans-serif;
     font-weight: 400;
     font-style: normal;
-    
-  }
+}
+
 *,
 ::before,
 ::after {
@@ -40,7 +40,6 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
 }
 
 .head__nav ul {
@@ -54,7 +53,6 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 16px;
     text-decoration: none;
     color: #22356F;
-    
 }
 
 .head__nav a:hover {
@@ -154,7 +152,7 @@ h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
 }
 
-/* -=====Group2=====- */
+/* -=====Block 2=====- */
 
 .intro__section {
     display: inline-block;
@@ -233,7 +231,7 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0.1;
 }
 
-/* -==========Group 3============- */
+/* -==========Block 3============- */
 
 .title__second {
     margin-top: 120px;
@@ -245,7 +243,6 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.06em;
     color: rgba(34, 53, 111, 0.5);
 }
-
 
 .second__cont {
     display: flex;
@@ -317,6 +314,8 @@ h1,h2,h3,h4,h5,h6 {
     background: #0052C1; 
     box-shadow: inset 0px -1px 0px #FFFFFF; 
 }  
+
+
 /* -=====Before=====- */
 .sub::before {
     content: "";
@@ -328,7 +327,9 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 50%;
     background-color:#E9B730; 
 }
-/* -=======Group 4=======- */
+
+
+/* -=======Block 4=======- */
 .container__four {
     margin-left: 0;
     margin-top: 80px;
@@ -438,7 +439,7 @@ h1,h2,h3,h4,h5,h6 {
     box-shadow: inset 0px -1px 0px #FFFFFF; 
 }
 
-/* -=======Block5=========- */
+/* -=======Block 5=========- */
 .contents__plans {
     display: flex;
     flex-wrap: wrap;
@@ -475,5 +476,53 @@ h1,h2,h3,h4,h5,h6 {
     color: rgba(34, 53, 111, 0.5);
        
 }
+
+/* -=======Block 6=========- */
+.sect__should {
+    display: flex;
+    
+}
+.sect__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.sect__know {
+        
+    width: 217px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #22356F;
+}
+
+.sect__mdd {
+    width: 676px;
+    height: 215px;
+    
+   
+    font-family: 'Larsseit',sans-serif;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+
+    color: #22356F;
+}
+.sect__get {
+    font-family: 'Larsseit',sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FAB63E;  
+}
+
+
+
 
 
