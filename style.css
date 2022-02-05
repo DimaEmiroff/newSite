@@ -131,15 +131,16 @@ h1,h2,h3,h4,h5,h6 {
 
 /* -======Button Rectanble */
 .btn__rectangle {
+    display: flex;
+    align-items: center;
     position: absolute;
     width: 150px;
     height: 50px;
     left: 90px;
-    top: 715px;
+    top: 680px;
     font-size: 16px;
     line-height: 23px;
-    display: flex;
-    align-items: center;
+    
     letter-spacing: 0.1em;
     justify-content: center;
     color: #FFFFFF;
@@ -221,7 +222,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 93px;
     height: 210px;
     left: 106px;
-    bottom: 210px;
+    bottom: 250px;
     
     font-family: 'Larsseit',sans-serif;
     font-size: 16px;
@@ -331,13 +332,18 @@ h1,h2,h3,h4,h5,h6 {
 
 /* -=======Block 4=======- */
 .container__four {
-    margin-left: 0;
-    margin-top: 80px;
     display: flex;
+    
+    
+    margin-top: 80px;
+    
+    background-color: #dee1ffa6;
+    
        
 }
 .health__group {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap:  wrap;
     font-family: 'Larsseit', sans-serif;
@@ -443,11 +449,12 @@ h1,h2,h3,h4,h5,h6 {
 .contents__plans {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     justify-items: center;
     text-align: left;
     padding: 0;
-    margin-top: 20px;
-    margin-left: 40px; 
+         
+    background-color: #cacaca3f;
 }
 
 .content__train {
@@ -521,6 +528,13 @@ h1,h2,h3,h4,h5,h6 {
 
     color: #FAB63E;  
 }
+
+/* -=======Block 7========- */
+
+
+
+
+
 
 
 
