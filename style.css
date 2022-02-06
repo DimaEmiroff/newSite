@@ -178,16 +178,12 @@ h1,h2,h3,h4,h5,h6 {
     color: #FFFFFF;
 }
 .want__intro {
-    
-    width: 555px;
+        width: 555px;
     height: 235px;
     margin-left: 90px;
     margin-top: 209px;
-
     font-size: 24px;
-   
-    color: #FFFFFF;
-
+       color: #FFFFFF;
 }
 
 /* -======I,g christ=====- */
@@ -224,7 +220,7 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 23px;
     letter-spacing: 0.06em;
     color: #22356F;
-    opacity: 0.1;
+    opacity: 0.6;
 }
 
 /* -==========Block 3============- */
