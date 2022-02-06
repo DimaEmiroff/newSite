@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 .head__nav ul {
     display: flex; 
     justify-content: space-between;
-    width: 233px;
+    width: 333px;
         
 }
 .head__nav a {
@@ -519,11 +519,11 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: space-between;
     background: #22356F;
     text-align: left;
+    height: 800px;
 
 }
 .cont__text {
     display: flex;
-    align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
     margin-left: 200px;
@@ -531,7 +531,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .cont__us {
-    margin-top: 70px;
+    margin-top: 65px;
     font-size: 16px;
     line-height: 12px;
     letter-spacing: 0.06em;
@@ -539,7 +539,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #FFFFFF;
 }
 .cont__smile {
-    margin-top: 200px;
+    margin-top: 170px;
     font-size: 64px;
     line-height: 94px;
     letter-spacing: -0.01em;
@@ -549,7 +549,7 @@ h1,h2,h3,h4,h5,h6 {
 .cont__free {
     margin-top: 30px;
     width: 579px;
-    height: 253px;
+    height: 233px;
     font-size: 36px;
     line-height: 53px;
     letter-spacing: -0.005em;
@@ -557,16 +557,63 @@ h1,h2,h3,h4,h5,h6 {
     color: #FFFFFF;
 }
 
-.sect__get {
-    font-size: 16px;
+.cont__get {
     line-height: 23px;
     align-items: center;
     letter-spacing: 0.1em;
 
     color: #62D0DF;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 
 }
+.cont__cupture {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -======Block 8=======- */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    height: 380px;
+}
+.info__contacts {
+    display: flex;
+                
+}
+.info__some {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left: 120px;
+}
+
+.info__par{
+    width: 240px;
+    height: 115px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+
+    color: rgba(34, 53, 111, 0.5);
+
+}
+
+/* -=======Footer=====- */
+.foot {
+    background-color: #62D0DF;
+    padding-left: 120px;
+    padding-top: 40px;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    height: 80px;
+    
+    color: #FFFFFF;
+    
+}
+
 
 
 
